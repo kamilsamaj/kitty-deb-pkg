@@ -1,5 +1,5 @@
 Package: kitty
-Version: 0.24.2-1
+Version: __VERSION__-1
 Architecture: amd64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: James McCoy <jamessan@debian.org>
