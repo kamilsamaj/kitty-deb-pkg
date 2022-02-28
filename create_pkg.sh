@@ -11,6 +11,8 @@ tar xvf kitty-${VERSION}-x86_64.txz
 
 mkdir -p "${TMP_DIR}/usr"
 mv {bin,lib,share} "$TMP_DIR/usr"
+mkdir -p "$TMP_DIR/usr/share/terminfo/x"
+cp xterm-kitty "$TMP_DIR/usr/share/terminfo/x/"
 cp -avr DEBIAN "$TMP_DIR"
 sed -i "s/__VERSION__/${VERSION}/g" "${TMP_DIR}/DEBIAN/control"
 dpkg-deb -b "$TMP_DIR" kitty-${VERSION}-1_amd64.deb
