@@ -1,5 +1,5 @@
 #!/bin/bash -x
-VERSION="0.24.2"  # CHANGE to update
+VERSION="0.24.4"  # CHANGE to update
 
 
 TMP_DIR=$(mktemp -d)
